@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
 @font-face {
-  font-family: 'unicons';
+  font-family: 'Ubuntu', sans-serif;
   src: url('../font/unicons.eot?42479262');
   src: url('../font/unicons.eot?42479262#iefix') format('embedded-opentype'),
        url('../font/unicons.woff2?42479262') format('woff2'),
