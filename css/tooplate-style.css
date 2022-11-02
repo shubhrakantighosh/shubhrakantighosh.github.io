@@ -202,9 +202,9 @@ b, strong {
   will-change: transform;
   transition: transform 200ms linear;
 }
-.navbar[class*="-unpinned"] {
+/* .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
-}
+} */
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
 }
