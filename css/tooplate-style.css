@@ -585,6 +585,7 @@ b, strong {
     bottom: 50px;
   }
 }
+
 @media (max-width: 991px) {
   .full-screen {
     padding-bottom: 4rem;
@@ -721,13 +722,16 @@ b, strong {
     background: #ffffff;
   }
 
+
 }
 
 
 
 
 #gitStats{
-  width: 50%;
-  margin: auto;
+
+  display: flex;
+  justify-content: center;
   margin-bottom: 100px;
+
 }
