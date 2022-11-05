@@ -40,7 +40,7 @@ a {
   transition: all 0.4s ease;
 }
 a:hover {
-  color: #ED2188 !important;
+  color: #4169e1 !important;
 }
 
 .navbar-brand .uil {
@@ -92,14 +92,14 @@ b, strong {
   transition: all 0.4s ease;
 }
 .custom-btn:hover {
-  color: #ED2188;
+  color: #4169e1;
 }
 .custom-btn.custom-btn-bg {
   background: #474559;
   color: #ffffff;
 }
 .custom-btn.custom-btn-bg:hover {
-  background: #ED2188;
+  background: #4169e1;
   color: #ffffff !important;
 }
 
@@ -125,7 +125,7 @@ b, strong {
 }
 
 .dark-mode .gold-color {
-  color: #ED2188;
+  color: #4169e1;
 }
 
 .about-icon a{
@@ -242,7 +242,7 @@ b, strong {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #ED2188;
+  color: #4169e1;
   font-weight: bold;
 }
 .navbar-light .navbar-nav .nav-link:focus span,
@@ -334,7 +334,7 @@ b, strong {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ED2188;
+  color: #4169e1;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -436,7 +436,7 @@ b, strong {
   font-size: inherit;
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #ED2188;
+  color: #4169e1;
 }
 .owl-theme .owl-dots .owl-dot {
   outline: none;
@@ -468,10 +468,10 @@ b, strong {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
-  border-color: #ED2188;
+  border-color: #4169e1;
 }
 .contact-form .submit-btn {
-  background: #ED2188;
+  background: #4169e1;
   border-radius: 50px;
   color: #ffffff;
   font-weight: bold;
@@ -501,7 +501,7 @@ b, strong {
   margin: 5px 0;
 }
 .social-links .uil:hover {
-  color: #ED2188;
+  color: #4169e1;
 }
 
 
@@ -726,12 +726,22 @@ b, strong {
 }
 
 
-
-
 #gitStats{
-
+  margin: auto;
   display: flex;
-  justify-content: center;
+  justify-content:space-around;
   margin-bottom: 100px;
+}
 
+#gitStats>div{
+  margin: auto;
+}
+
+@media (max-width: 1010px) {
+  #gitStats{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     margin-bottom: 100px;
+   }
 }
