@@ -745,3 +745,18 @@ b, strong {
      margin-bottom: 100px;
    }
 }
+#footer_Contact{
+  height: 170px;
+  background-color: #474559;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#gitSection{
+
+  margin-top: 60px;
+  margin-left: 20px;
+
+}
