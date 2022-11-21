@@ -760,3 +760,11 @@ b, strong {
   margin-left: 20px;
 
 }
+
+.footer_icon_contact{
+
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 2;
+
+}
