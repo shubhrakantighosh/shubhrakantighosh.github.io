@@ -723,8 +723,50 @@ b, strong {
   .dark-mode .navbar-toggler-icon {
     background: #ffffff;
   }
+  .git_stats_size{
+    width: 240px;
+  }
 
+}
 
+@media (max-width: 520px) {
+
+  .git_stats_size{
+    width: 440px;
+  }
+  
+}
+
+@media (max-width: 340px) {
+
+  .git_stats_size{
+    width: 240px;
+  }
+  
+}
+
+@media (max-width: 460px) {
+
+  .git_stats_size{
+    width: 340px;
+  }
+  
+}
+
+@media (max-width: 290px) {
+
+  .git_stats_size{
+    width: 190px;
+  }
+  
+}
+
+@media (max-width: 430px) {
+
+  .git_stats_size{
+    width: 340px;
+  }
+  
 }
 
 
