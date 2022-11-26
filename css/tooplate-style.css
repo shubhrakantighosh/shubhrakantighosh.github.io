@@ -791,7 +791,7 @@ b, strong {
 }
 #footer_Contact{
   height: 170px;
-  background-color: #474559;
+  /* background-color: #474559; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -811,4 +811,14 @@ b, strong {
   -webkit-columns: 4;
   -moz-columns: 2;
 
+}
+
+.bottom_icon_size{ 
+  width:60px
+}
+
+
+.fa-brands .fa-folder-open:hover{
+  font-size:6em;
+  transition: 1s ease-out;
 }
